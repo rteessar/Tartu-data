@@ -1,4 +1,5 @@
 # Tartu-data
 There are a total of 3 tasks divided between sets of Jupyter notebooks, each focusing on a different aspect of mapping/analyzing. Those 3 tasks are 1) mapping the bus data 2) mapping the bike data 3)graphing the bus data (bus data analysis). Each notebook has a separate read-me file, that informs the user about the notebook in more detail.  
 IMPORTANT INFORMATION: to open the bike data mapping notebook, Jupiter notebook has to be opened specially. The way I did it was by opening the Anaconda Prompt and entering the following line:  
-jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10
+jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10  
+IMPORTANT INFORMATION#2: Because the data is so secret, we might get jailed for life for even thinking about it in a public area (although the most important part of the data is publically available on the Tartu linn homepage), we did not dare to upload it on the project file in Git. Therefore most of the file importing will not work unless the names of the files, the data within the files and the location of the files are the same as ours.
